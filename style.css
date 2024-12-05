@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,11 +8,12 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center; 
-    gap: 20px; 
+    gap: 40px; 
 }
 
 nav ul li a {
     color: black;
+    text-decoration: none;
 }
 
 img {
@@ -21,4 +22,18 @@ img {
 
 img:hover {
     transform: scale(1.2);
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+    background-color: #635994;
+    text-align: center;
+}
+audio {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 300px;
 }
